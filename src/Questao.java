@@ -58,8 +58,6 @@ public void escrevaQuestao(){
     System.out.println(this.opcaoE);
     System.out.println();
 }
-}
-
 Questao[] questoes = {
         new Questao("Qual é o planeta do Sistema Solar que tem o dia mais curto?", "Júpiter", "Mercúrio", "Terra", "Marte", "Netuno", "Mercúrio"),
         new Questao("Qual fenômeno ocorre quando a Terra fica entre o Sol e a Lua, projetando sua sombra sobre a Lua?", "Eclipse Solar", "Eclipse Lunar", "Solstício", "Equinácio", "Supernova", "Eclipse Lunar"),
