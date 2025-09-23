@@ -23,5 +23,6 @@ public class Main {
         quiz.exibeCabecalho();
         quiz.formataQuestao(questoes, quiz);
         quiz.exibeEstats(questoes);
+
     }
 }

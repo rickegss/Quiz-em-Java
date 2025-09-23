@@ -17,11 +17,11 @@ public class Questao {
 
     public boolean isCorreta(String resposta){
         if(resposta.equalsIgnoreCase(this.correta)){
-            System.out.println("Parabéns resposta Correta! - Letra: " + this.correta);
+            System.out.println("✅ Parabéns resposta Correta! - Letra: " + this.correta);
             System.out.println(" ");
             return true;
         } else {
-            System.out.println("Resposta Errada!");
+            System.out.println("❌ Resposta Errada!");
             System.out.println("A opção correta é a letra: " + this.correta);
             System.out.println(" ");
             return false;
@@ -43,7 +43,7 @@ public class Questao {
                 resp.equalsIgnoreCase("D") || resp.equalsIgnoreCase("E")){
             return true;
         }
-        System.out.println("Resposta inválida! Digite opção A, B, C, D ou E. ");
+        System.out.println("❌ Resposta inválida! Digite opção A, B, C, D ou E. ");
         System.out.println(" ");
         return false;
     }
@@ -51,11 +51,11 @@ public class Questao {
     public void escrevaQuestao(int numero_questao){
         System.out.println(numero_questao + " - " + this.pergunta);
         System.out.println();
-        System.out.println("A)" + this.opcaoA);
-        System.out.println("B)" + this.opcaoB);
-        System.out.println("C)" + this.opcaoC);
-        System.out.println("D)" + this.opcaoD);
-        System.out.println("E)" + this.opcaoE);
+        System.out.println("A) " + this.opcaoA);
+        System.out.println("B) " + this.opcaoB);
+        System.out.println("C) " + this.opcaoC);
+        System.out.println("D) " + this.opcaoD);
+        System.out.println("E) " + this.opcaoE);
         System.out.println();
     }
 
