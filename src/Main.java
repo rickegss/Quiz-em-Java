@@ -21,7 +21,7 @@ public class Main {
 
         Interface quiz = new Interface();
         quiz.exibeCabecalho();
-        quiz.formataQuestao(questoes, quiz);
+        quiz.formataQuestao(questoes);
         quiz.exibeEstats(questoes);
 
     }
